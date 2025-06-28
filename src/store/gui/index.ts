@@ -227,6 +227,7 @@ export const getDefaultState = (): GuiState => {
                     'filament_type',
                     'filament_total',
                     'filament_weight_total',
+                    'filament_cost',
                     'estimated_time',
                     'last_print_duration',
                     'slicer',

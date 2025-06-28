@@ -64,6 +64,7 @@ export const allowedMetadata = [
     'filament_name',
     'filament_temps',
     'filament_type',
+    'filament_cost',
     'filament_total',
     'filament_weight_total',
     'filament_weights',
