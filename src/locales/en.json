@@ -242,6 +242,7 @@
         "EditFile": "Edit File",
         "Empty": "Empty",
         "ExtruderTemp": "Extruder Temp.",
+        "FilamentCost": "Filament Cost",
         "FilamentName": "Filament Name",
         "Filaments": "Filaments",
         "FilamentType": "Filament Type",
