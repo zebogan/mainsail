@@ -9,7 +9,7 @@ export interface tableColumnSetting {
     sortable?: boolean
     class?: string
     pos?: number
-    outputType?: 'string' | 'date' | 'length' | 'weight' | 'filesize' | 'temp' | 'time'
+    outputType?: 'string' | 'date' | 'length' | 'weight' | 'filesize' | 'temp' | 'time' | 'cost'
 }
 
 @Component
@@ -221,6 +221,13 @@ export default class GcodefilesMixin extends Vue {
                 visible: true,
                 class: 'text-no-wrap',
                 outputType: 'string',
+            },
+            {
+                text: this.$t('Files.FilamentCost').toString(),
+                value: 'filament_cost',
+                visible: true,
+                class: 'text-no-wrap',
+                outputType: 'cost',
             },
         ]
 

@@ -42,6 +42,9 @@ export default class GcodefilesPanelTableRowFileMetadata extends Mixins(BaseMixi
 
             case 'weight':
                 return value.toFixed(2) + ' g'
+            
+            case 'cost':
+                return '$' + value.toFixed(2)
 
             default:
                 return value
